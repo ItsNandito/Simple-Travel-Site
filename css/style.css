@@ -1,0 +1,14 @@
+.image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+nav {
+    padding: .5em;
+    background-color: rgba(196, 175, 214, 0.801);
+}
+
+nav a {
+    text-align: center;
+}
