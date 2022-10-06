@@ -6,9 +6,17 @@
 
 nav {
     padding: .5em;
-    background-color: rgba(196, 175, 214, 0.801);
+    background-color: rgba(234, 214, 251, 0.67);
 }
 
 nav a {
     text-align: center;
+}
+
+#bodytext1 {
+    float: left;
+}
+
+#bodytext2 {
+    float: right;
 }
