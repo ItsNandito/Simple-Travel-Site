@@ -1,22 +1,100 @@
-.image {
+header {
+    padding-left: 18%;
+}
+
+#headimage {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    height: 500px;
+    width: 1200px;
 }
 
 nav {
     padding: .5em;
-    background-color: rgba(234, 214, 251, 0.67);
+    background-color: rgb(35, 35, 35);
+    padding-left: 40%;
 }
 
 nav a {
     text-align: center;
+    font-size:x-large;
+    padding: 1em;
+    font-family: 'Times New Roman', Times, serif;
+}
+a:link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(127, 127, 127);
+    text-decoration: underline;
+  }
+
+body {
+    background-color: rgb(59, 59, 59);
 }
 
-#bodytext1 {
-    float: left;
+
+#text1 {
+    background-color: brown;
+    display: inline;
+    position: absolute;
+    height: 500px;
+    width: 350px;
+    top: 40%;
+    left: 20%;
+    font-size: x-large;
+}
+#text2 {
+    background-color: chocolate;
+    display: inline;
+    position: absolute;
+    height: 500px;
+    width: 350px;
+    top: 40%;
+    left: 55%;
+    font-size: x-large;
 }
 
-#bodytext2 {
+
+.gallery1 {
+    display: flex;
+    overflow-x: auto;
+    width: 1500px;
+    padding: 1em;
+    gap: 40px;
+    background-color: rgb(45, 54, 57);
+    
+}
+
+.gallery2 {
+    display: flex;
     float: right;
+    overflow-x: auto;
+    width: 1500px;
+    padding: 1em;
+    gap: 40px;
+    background-color: rgb(45, 54, 57);
+}
+
+#outdoorimages {
+    display: flex;
+    gap: 40px;
+    height: 600px;
+    width: 900px;
+
+}
+
+#indoorimages {
+    display: flex;
+    height: 600px;
+    width: 900px;
+
 }
